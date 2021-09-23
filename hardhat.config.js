@@ -20,8 +20,8 @@ task("balance", "Prints an account's balance")
     console.log(web3.utils.fromWei(balance, "ether"), "ETH");
   });
 
-const ALCHEMY_API_KEY = "Your Alchemy API Key";
-const RINKEBY_PRIVATE_KEY = "Your wallet address private key";
+const ALCHEMY_API_KEY = "awL0dtstZIqTKiAWbuZInejG1XVxrgLS";
+const RINKEBY_PRIVATE_KEY = "5dd617ff66940f8b5863b5dc3089c5fe1d0020aaa59bfc8628c6fb4c8d1c7eb9";
 
 module.exports = {
   solidity: "0.8.4",
